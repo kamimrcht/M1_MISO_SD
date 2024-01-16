@@ -1,5 +1,5 @@
 import argparse
-from get_kmer_counts_from_bcalm import *
+from get_kmer_count_from_bcalm import *
 from kmer_count_in_final_datastructure import *
 
 def measure_runtime(function, *args, number=10):
