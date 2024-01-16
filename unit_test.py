@@ -3,7 +3,7 @@ from io import StringIO
 import sys
 from extract_kmer import read_fasta, extract_kmers 
 from extract_count import get_count_header
-from get_kmer_counts_from_bcalm import print_kmer_counts
+from get_kmer_count_from_bcalm import print_kmer_counts
 
 class TestKmerExtraction(unittest.TestCase):
 
